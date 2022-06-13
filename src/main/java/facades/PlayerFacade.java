@@ -53,6 +53,7 @@ public class PlayerFacade {
         query.setParameter("id", id);
         boolean isAlive = query.getSingleResult();
         return isAlive;
+
     }
 
     public String getName(long id) {
